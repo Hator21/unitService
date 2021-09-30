@@ -1,0 +1,26 @@
+GET /units HTTP/1.1
+Host: localhost:4000
+Content-Type: application/json
+
+###
+GET /units/available HTTP/1.1
+Host: localhost:4000
+Content-Type: application/json
+
+###
+
+POST /units HTTP/1.1
+Host: localhost:4000
+Content-Type: application/json
+Content-Length: 219
+
+{
+  "id":"2fb5ff1c5c07f9b070be10f86287da86",
+  "destination":"Halle Westf.",
+  "specialization":"Bergung",
+  "available":true,
+  "start_date":"20210912",
+  "end_date":"20210919",
+  "unit_strength":7,
+  "organization" : "THW"
+}
