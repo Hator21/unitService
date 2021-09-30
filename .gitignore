@@ -1,2 +1,3 @@
-node-modules
-postgresdata
+node-modules/
+postgresdata/
+.idea/
